@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!--header css-->
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="carousel.css">
+    <style>
+      .navbar {
+         background-color: #123c69;
+         padding-left: 50px;
+     }
+   .dropdown-menu {
+     background-color: rgb(182, 225, 253);
+   } 
+   .nav-item {
+     
+     padding-left: 10px;
+     padding-right: 10px;
+   }
+   .logo {
+       width:60px;
+      }
+      .heading{
+        text-align:center ;
+        padding-top:20px;  
+        margin:auto;
+      color:midnightblue ;
+      }
+      .icons
+      { 
+        padding-top:20px;
+               color:black;
+                 margin:0 5px; 
+                  }
+.icondiv{
+    margin: auto;
+  
+    width: 50%;
+}
+  
+   
+  </style>
+    
+    <title>Header</title>
+</head>
+<body>
+    <!--header-->
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-2 col-sm-2  col-xl-2  ">
+             <a href="#"><img src="it logo.png" alt="iet logo" class="img-fluid head-logo hlogo1"></a>
+            </div>
+            <div class="col-8  col-sm-8 col-xl-8  text-center">
+                <h2 class="nss">National Service Scheme</h1>
+                <h4 class="institute">Institute Of Engineering And Technology</h2>
+                <h4 class="institute">Devi Ahilya Vishwavidyalya, Indore, M.P</h3> 
+            </div>
+            <div class="col-2 col-sm-2  col-xl-2  ">
+                <a href="#"><img src="nss logo.png" alt="iet logo" class="img-fluid head-logo hlogo2"></a>
+            </div>
+          
+        </div>
+    </div>
+
+
+
+
+<!--nav-bar-->
+   
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top  navicustom">
+  <div class="container">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarlinks" aria-controls="navbarlinks" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <!--links of navbar in left-->
+    <div class="collapse navbar-collapse" id="navbarlinks">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        
+        <!-- About US {Dropdown} -->
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              About Us
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Our motto </a>
+              <a class="dropdown-item" href="#">Our Team</a>
+              <a class="dropdown-item" href="#">NSS Camps</a>
+            </div>
+          </li>
+    
+        <!-- Downloads {Dropdown} -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Downloads
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">NSS Diary </a>
+            <a class="dropdown-item" href="#">Camp Guidelines</a>
+            <a class="dropdown-item" href="#">NSS Geet</a>
+            <a class="dropdown-item" href="#">Calender</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item-last">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+      </ul>
+      <!--login-->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Login</button></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><button type="button" class="btn btn-danger">Register</button></a>
+        </li>
+    </ul>
+    </div>
+
+
+  </div>
+</nav>
+
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <!--images of carousel-->
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img class="d-block w-100 customcarousel" src="carousel1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 customcarousel" src="carousel2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 customcarousel" src="carousel3.jpg" alt="Third slide">
+      </div>
+      <div class="carousel-item">
+          <img class="d-block w-100 customcarousel" src="carousel4.jpg" alt="Fourth slide">
+      </div>
+      <div class="carousel-item">
+          <img class="d-block w-100 customcarousel" src="carousel5.jpg" alt="Fifth slide">
+      </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+
+
+
+
+</div>
+<pre>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita rerum animi voluptatum eius, odit quod officiis accusantium dolorum incidunt eligendi a pariatur soluta officia consequatur beatae? Voluptates esse saepe a!
+  Consectetur incidunt autem doloremque aliquid, magnam temporibus optio, tempore cupiditate facere eaque sed? Vero, distinctio harum, impedit maiores ducimus sit recusandae animi esse, alias expedita assumenda? Molestias aspernatur obcaecati ab?
+  Distinctio natus id commodi ipsum ipsam nobis quas vel fugiat doloremque itaque iusto reprehenderit eos facere autem aliquid esse fuga totam, possimus enim vero aut deleniti eveniet molestias? Accusantium, nemo.
+  Vero mollitia exercitationem minima dolorem iure, consequuntur illum fugiat nisi aliquam sequi, maiores aperiam eaque quas nesciunt esse dignissimos quia reprehenderit rerum. Assumenda omnis expedita quo necessitatibus nisi amet ratione?
+  Iure nihil pariatur quas error dolores reiciendis laborum iusto quibusdam inventore impedit ad corrupti cumque libero, incidunt quae earum laudantium sapiente. Omnis dignissimos numquam fugit quas debitis qui error nesciunt?
+  Saepe laboriosam, blanditiis rerum explicabo ab culpa corporis facere aut praesentium labore dolorum minus in, harum incidunt quae architecto similique nostrum deleniti magnam nisi error earum veritatis officiis facilis. Obcaecati!
+  Sapiente consequuntur necessitatibus alias temporibus amet perspiciatis deserunt expedita, dolor, maiores, eveniet consectetur! Distinctio perferendis molestiae dolorum architecto pariatur minima quam itaque libero optio? Ipsa incidunt excepturi illum aliquid expedita.
+  Inventore corporis in ex autem a enim hic deserunt. Accusantium sapiente dolorum ullam deleniti reprehenderit? Mollitia esse adipisci dolore laboriosam et voluptates recusandae quasi, distinctio facilis aperiam reiciendis repellendus porro!
+  Iusto voluptatibus quod eligendi repudiandae tempora, vel laudantium facilis accusamus dolorum consequatur dolore sunt quam natus. Reiciendis, temporibus esse, molestias cupiditate doloribus vitae eos vero sequi maxime, quaerat quam incidunt.
+  Modi praesentium ipsa labore sapiente sed quisquam perspiciatis, tempora consectetur deleniti placeat, aspernatur ex, fuga odio? Atque vero ullam sint nam ducimus, quasi voluptas totam alias maiores, ipsa, quis nisi?
+  Aliquid tenetur voluptatibus dolore ipsa fugit quisquam dolor, porro amet culpa error beatae delectus esse ducimus ipsam suscipit obcaecati doloremque pariatur dolorem. Reprehenderit enim, veniam facilis fugiat consectetur ut odit?
+  Quibusdam eveniet tempora fugit laborum similique repudiandae animi deserunt minus eligendi cupiditate, error soluta labore eos sequi nisi totam. Molestiae, inventore provident odit blanditiis ipsa rerum expedita. Blanditiis, ad at!
+  Vel reiciendis consectetur quasi facilis ut nulla perspiciatis recusandae magni, quia, sed temporibus dolores commodi aliquam ipsa, vero reprehenderit voluptatibus animi aliquid debitis consequatur? Odio enim corporis blanditiis consectetur tempora.
+  Praesentium placeat, veritatis maiores voluptatum officiis minus cum fugit natus doloremque facilis asperiores error ab necessitatibus nam sed quidem provident, in, sequi molestias laboriosam hic? Id at hic quos corrupti.
+  Incidunt corporis saepe hic fugit, laborum dignissimos adipisci eius quo quisquam labore cum ut aperiam? Eum quo, dolore ipsa repellendus neque dolor eaque. Animi maiores deleniti aliquam enim. Est, assumenda.
+  Cum corrupti, repellendus inventore animi iure ut sed corporis deserunt tempora minima debitis ipsa labore, dicta dolores maiores similique odit aliquam. Et sed labore necessitatibus consequatur laudantium eos accusamus quis!
+  Nostrum nobis optio sed porro consectetur eos minus, illo placeat fugit vitae quia in sequi alias blanditiis repudiandae consequatur libero quaerat voluptas, officia quasi dolores deleniti officiis eveniet ipsa. Aperiam.
+  Nesciunt maxime tempora officia magnam molestiae inventore architecto modi, dolorum accusamus perspiciatis mollitia, nostrum illum est quasi esse dolorem quia aliquam harum expedita. Ab iste error, voluptate suscipit nemo est?
+  Temporibus, reiciendis? Provident, iusto beatae laborum, repellat necessitatibus deleniti ullam inventore optio ad assumenda iure. Reprehenderit voluptate exercitationem itaque mollitia dolore minima, vero, ad, amet magni recusandae porro voluptas necessitatibus?
+  Earum eligendi impedit deleniti cumque! Vitae, numquam similique? Aliquid soluta velit deleniti minima quisquam tenetur asperiores quibusdam itaque quaerat provident repellat voluptate blanditiis, unde, mollitia delectus nisi corporis optio laboriosam.
+  Eius, facilis aspernatur repellat maiores, consequatur hic vel voluptatibus amet voluptatum quasi minima pariatur totam numquam, consequuntur error fuga laudantium tenetur a! Officiis autem quae maiores, possimus reprehenderit dolor enim?
+  Quo culpa magnam quam eveniet laudantium ullam sunt dicta adipisci deserunt facilis. Laudantium commodi at voluptate. Optio amet provident aliquid labore sunt? Itaque voluptatem perferendis quibusdam sed nisi, impedit facere!
+  Ut rem ea deserunt atque dignissimos aperiam recusandae aspernatur. Eligendi facilis voluptas similique itaque, earum, illo fugiat nisi laboriosam repellendus vitae quidem minus magnam eos blanditiis molestias? Deserunt, quo sint!
+  Dolores, labore optio distinctio veniam nihil nesciunt blanditiis esse cumque iure. Quis, officia? Autem eius nesciunt, similique labore modi optio corrupti placeat. Consequuntur consequatur, aperiam eum aliquid repudiandae tempora cupiditate.
+  Asperiores cumque numquam rerum, animi voluptate, sunt est commodi illo earum dolorem laborum nihil. Sit similique quisquam illo maiores aliquam a, assumenda atque exercitationem, architecto cum autem dolorum quod quidem.
+  Voluptates vitae in quo, non error vel fuga, nam aliquam corporis perferendis repellat saepe iusto libero! Eligendi repellat ea, est fugit quae perferendis vel voluptatibus recusandae hic id harum praesentium.
+  Recusandae doloremque nihil dicta excepturi nulla deserunt impedit delectus laborum. Ut velit placeat animi. Harum nostrum, ad accusamus numquam repudiandae alias repellat eligendi, minus vitae possimus mollitia reiciendis nisi quasi.
+  Atque similique a explicabo tenetur minima ab libero dicta inventore exercitationem? Tenetur, provident amet odit eveniet deserunt reiciendis dicta nostrum nihil sapiente consectetur explicabo ipsa, quos repellendus veniam nemo illo!
+  Ut perferendis nam, molestias vitae officia labore repudiandae obcaecati est voluptates, assumenda illum, aliquam a facilis. Aliquam ea eos, possimus, et repellendus tenetur, neque maiores ut repellat ipsa optio quidem?
+  Excepturi numquam tempore dolores sit repudiandae? Architecto quas iure repellat ad libero deleniti, consequuntur commodi vel amet ipsam tempora dolor tempore inventore quia assumenda suscipit rerum corrupti iste! Accusantium, explicabo.
+  Laborum consequuntur ullam sint. Dolorum corporis debitis illum aut ut nihil itaque praesentium. Sequi alias fugit, nisi a cupiditate quidem voluptatibus consectetur molestias repudiandae numquam, non, minima doloribus. Consequatur, atque?
+  Praesentium dignissimos quaerat magni atque earum consequuntur dolorum assumenda illum, voluptates odit expedita exercitationem, reiciendis cumque quam, molestiae alias blanditiis aut natus animi. Tenetur placeat perferendis repellendus dicta! Aliquid, sit!
+  Dignissimos reiciendis eos neque enim distinctio voluptatibus repellendus laboriosam sapiente rerum, quidem non consequuntur facilis saepe voluptatem natus impedit cumque veritatis. Porro qui ratione recusandae sequi reprehenderit iure fugit odio.
+  Commodi fuga nihil ab perspiciatis porro, beatae facilis at dolor tenetur eveniet dolorem quaerat hic excepturi, minima quos quo tempore eum debitis alias aliquam sequi! Similique pariatur fugiat reprehenderit eius.
+  Quia, accusamus aliquid facere eos officiis doloremque sint dignissimos ea quidem recusandae quasi assumenda quaerat voluptate ullam consequatur repellendus obcaecati. Praesentium reprehenderit nam quos consequatur reiciendis sapiente nulla inventore dicta.
+  Soluta quibusdam magni aperiam inventore nobis pariatur commodi dicta sed autem vel sapiente dolor nostrum quaerat, illum dolorem dignissimos temporibus eaque eum repellat similique. Vero libero hic obcaecati nihil praesentium.
+  Quis iste deleniti, ad quisquam, enim dolore ex iusto eum fugiat officia porro? Pariatur, nam, magnam dignissimos incidunt fugit non iusto nemo sapiente aspernatur harum accusantium. Unde tempore natus reprehenderit.
+  Earum et laboriosam molestias voluptas harum aut architecto eveniet molestiae accusantium debitis culpa quis reprehenderit modi quidem mollitia, temporibus eos expedita deserunt pariatur voluptatem numquam necessitatibus optio ipsam doloribus. Cumque.
+  Rerum vitae nulla quo deserunt ea cumque quam omnis perspiciatis consectetur enim quos, ut tenetur reprehenderit veniam, praesentium error totam dicta neque culpa aliquid non quibusdam, veritatis molestias magnam? Optio.
+  Nesciunt dolor blanditiis quibusdam ad autem dignissimos minus iste, saepe laborum illo alias consectetur modi quo reiciendis! Magnam aspernatur sit dolores odit maxime inventore voluptatum necessitatibus quisquam autem accusantium. Ipsa?
+  Quia architecto autem earum harum sed alias magni, ad vero fugiat. Libero assumenda non quos ea! A ipsa consequuntur sit esse assumenda nostrum? Est impedit labore eligendi doloremque enim esse.
+  Ducimus neque temporibus placeat aliquam eius reprehenderit voluptas soluta et incidunt, earum veniam rerum, quis sapiente vero. Nisi necessitatibus, unde repudiandae adipisci eaque, dicta quas incidunt natus alias aliquid recusandae!
+  Reprehenderit autem ducimus voluptatem ipsam illum libero molestias suscipit incidunt minima excepturi expedita quis repellendus inventore, totam debitis adipisci aut rem in vitae aliquid nihil. Consequuntur excepturi doloribus explicabo fuga.
+  Quam temporibus aut adipisci, iste, officia distinctio tempora quas perferendis omnis a reprehenderit doloremque quo veniam error? Deleniti expedita dolor dolores nam vero laborum porro, delectus quo quia, soluta id.
+  Adipisci nulla, facilis perspiciatis recusandae magni dolore mollitia quia quo laborum consequatur cupiditate accusantium incidunt modi obcaecati iusto maiores at aperiam! Esse, id quibusdam. A hic suscipit ipsum corrupti ut.
+  Nesciunt quae, aspernatur aut numquam quia non cupiditate fugit sint, doloribus explicabo laborum, id debitis facere aliquam dolor distinctio minus architecto tenetur mollitia expedita! At odio nostrum nisi minima aspernatur!
+  Repudiandae nihil consequatur veniam eum minima saepe, placeat obcaecati quidem error doloribus nulla dolor suscipit dolore! Consectetur similique et, mollitia, ea rem accusamus temporibus laborum incidunt architecto recusandae quis provident.
+  Aspernatur at obcaecati non, sapiente esse labore minima reiciendis rerum recusandae suscipit, quidem laudantium dicta deleniti fuga saepe odio nemo dolores asperiores delectus magnam corrupti inventore cum! Sapiente, asperiores dignissimos.
+  Dolore ullam cupiditate natus qui dignissimos, esse consequuntur placeat ut tenetur rem aspernatur doloribus! Totam impedit maxime beatae odio deserunt blanditiis cumque architecto facere minima ut quam consectetur, libero ipsa?
+  Quaerat id quam, sequi ut sit quasi quis eligendi amet illo ipsam temporibus impedit autem consectetur officia cupiditate, officiis quia maiores eius nesciunt perspiciatis sunt nemo inventore totam. In, at!
+  Porro quam nobis veritatis quidem in, dolorem est sequi. Similique iure optio beatae numquam dignissimos, sequi illum officia nam atque exercitationem, nulla recusandae est? Aspernatur expedita ipsum atque architecto nulla?
+  Ullam exercitationem ratione porro sit aliquam distinctio tempore alias iste? Officiis explicabo aliquid eaque eum esse et aliquam possimus nisi dignissimos voluptas. Recusandae, possimus quam deserunt ex quaerat assumenda similique!
+  Suscipit recusandae dolorum, dicta veniam earum iure id harum dolor est? Impedit, ut odit. Nobis, optio tempora aperiam eligendi nemo libero magnam quas fuga blanditiis! Rerum cumque excepturi eum culpa.
+  Sunt vero aperiam aliquid eligendi adipisci fugiat maxime officia molestias itaque doloremque molestiae aut perspiciatis laborum, ea impedit. Officia ducimus ipsum possimus voluptatum quia laborum et dolor nostrum placeat similique!
+  Distinctio exercitationem in perferendis harum eveniet eligendi autem beatae! Quod soluta ullam vero amet illum beatae enim autem nam ipsam iusto, laboriosam itaque assumenda reiciendis eaque delectus tempora adipisci. Deleniti!
+  Labore dolore ducimus commodi. Illo nobis doloribus aspernatur aperiam corporis tempore repellat deserunt! Molestias voluptates nihil modi debitis unde tempore eius. Nisi voluptate rerum esse repudiandae asperiores ex facilis dolores.
+  Soluta deleniti minima ipsam qui unde voluptatem nihil facilis repellat sit fugit voluptatibus aperiam amet saepe, rerum eaque! Autem, molestias veniam? Nostrum provident doloribus officiis consequuntur, veritatis earum deleniti aliquid.
+  Ipsa obcaecati ex, consequatur reiciendis facilis blanditiis minima laboriosam dignissimos unde dicta, sequi nisi voluptatibus? Possimus, quod aliquid. Optio dolore itaque corrupti cum inventore numquam ducimus mollitia earum necessitatibus repellat.
+  Quos vel aspernatur esse deleniti. Modi saepe fugit nesciunt iste maxime, tempora quaerat illo laborum eos quam ut pariatur quas ullam voluptatum ex facere ipsum ab expedita inventore culpa minus!
+  Optio non neque, numquam nesciunt ad sequi, sunt iure porro expedita quasi eaque qui dolorem sed molestiae! Soluta, deserunt distinctio, eveniet odit ducimus nam fuga aliquid sapiente officia nihil nemo!
+</pre>
+
+<!--footer-->
+<div class="container-fluid" style="background-color:lightcyan">
+  <div class="row">
+    <div class="col-sm-5">
+        <img class="logo img-fluid float-left" src="it logo.png" alt= "davv logo">
+       
+        <img  class="logo img-fluid float-right" src="nss logo.png" alt= "nss logo">
+        <h4 class="heading">NSS-IET DAVV</h4>
+        <div class="icondiv">
+        <a href=# data-toggle="tooltip" title="Mail us" ><i class="fa fa-envelope-o icons" style="font-size:30px" ></i></a>
+      <a href=# data-toggle="tooltip" title="Connect on facebook"><i class= "fa fa-facebook-official icons " style="font-size:30px" ></i></a>
+      <a href=# data-toggle="tooltip" title="Watch us on Youtube"  ><i class="fa fa-youtube icons" style="font-size:30px" ></i></a>
+      <a href=# data-toggle="tooltip" title="With Instagram"  ><i class="fa fa-instagram icons" style="font-size:30px" ></i></a>
+      <a href=# data-toggle="tooltip" title="With Twitter"  ><i class="fa fa-twitter icons" style="font-size:30px" ></i></a>
+      <a href=# data-toggle="tooltip" title="With Wordpress"  ><i class="fa fa-wordpress icons" style="font-size:30px" ></i></a>
+      <br>
+  </div>
+  <br>
+      </div>
+      <div class="col-1 "></div>
+      <div class="col-sm-6  "> 
+         
+          <h3 class="heading"> Quick links</h3>
+          <div class="row">
+              <div class="col-7 pr-5">
+          <ul style="list-style-type:none;text-align:justify">
+            <li><a href="#" style="color:rgb(216, 8, 8)">About us</a></li>
+            <li><a href="#" style="color:rgb(216, 8, 8)">Contact us</a></li>
+            <li><a href="#" style="color:rgb(216, 8, 8)" >Downloads</a></li>
+          </ul>
+          </div>
+          <div class="col-5 pl-4 ">
+              <ul style="list-style-type:none;text-align:justify">
+                <li><a href="#"style="color: rgb(216, 8, 8)" >Gallery</a></li>
+                <li><a href="#" style="color:rgb(216, 8, 8)">Events</a></li>
+                <li><a href="#" style="color:rgb(216, 8, 8)">Feedback</a></li>
+              </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <div style="background-color:lightseagreen;color:black;text-align:center">
+    Developed and managed by NSS IET-DAVV <br> 
+    ©Copyright 2020
+    </div>
+
+
+
+
+
+
+
+
+
+<!--bootstrap javasscript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+.nss{
+    font-size: 2.5rem;
+}
+.institute{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*Meadia Queries*/
+@media screen and (max-width: 1200px) {
+    .nss{
+        font-size: 2rem;
+    }
+    .institute{
+        font-size: 1.6rem;
+    }
+   
+   }
+
+
+@media screen and (max-width: 992px) {
+     .nss{
+         font-size: 1.6rem;
+     }
+     .institute{
+         font-size: 1.3rem;
+     }
+    
+    .head-logo{
+        margin-top: 5px;
+    }
+    }
+
+@media screen and (max-width: 768px) {
+     .nss{
+         font-size: 1.5rem;
+     }
+     .institute{
+         font-size: 1rem;
+     }
+    .head-logo{
+        margin-top: 4px;
+        height: auto;
+        width: 70px;
+        max-width: none
+    }
+  
+    }
+@media screen and (max-width: 576px) {
+     .nss{ 
+         font-size: 1.2rem;
+     }
+     .institute{
+         
+         font-size: 0.9rem;
+     }
+    .head-logo{
+        margin-top: 4px;
+        
+        height: auto;
+        width: 70px;
+        max-width: none
+        
+        
+    }
+    .hlogo1{
+        height: auto;
+        float: left;
+        margin-left: 8px;
+        
+    }
+    .hlogo2{
+        height: auto;
+        float: right;
+        margin-right: 8px;
+    }
+    
+    }
+
+@media screen and (max-width: 486px) {
+        .nss{ 
+            font-size: 1rem;
+        }
+        .institute{
+            
+            font-size: 0.7rem;
+        }
+    }
+
+@media screen and (max-width: 486px) {
+        .nss{ 
+            font-size: 0.9rem;
+        }
+        .institute{
+            
+            font-size: 0.7rem;
+        }
+        .head-logo{
+            margin-top: 4px;
+            
+            height: auto;
+            width: 60px;
+            max-width: none;
+            
+            
+        }
+
+    }
+
+@media screen and (max-width: 400px) {
+        .nss{ 
+            font-size: 0.7rem;
+        }
+        .institute{
+            
+            font-size: 0.6rem;
+        }
+        .head-logo{
+            margin-top: 3px;
+            
+            height: auto;
+            width: 60px;
+            max-width: none;
+        
+        }
+      
+
+    }    
+
+@media screen and (max-width: 360px) {
+        .nss{ 
+            font-size: 0.7rem;
+        }
+        .institute{
+            
+            font-size: 0.5rem;
+        }
+        .head-logo{
+            margin-top: 3px;
+            
+            height: auto;
+            width: 50px;
+            max-width: none;
+        
+        }
+      
+
+    }   
+    
+    
+@media screen and (max-width: 360px) {
+        .nss{ 
+            font-size: 0.6rem;
+        }
+        .institute{
+            
+            font-size: 0.5rem;
+        }
+        .head-logo{
+            margin-top: 3px;
+            
+            height: auto;
+            width: 50px;
+            max-width: none;
+        
+        }
+      
+
+    }       
+
+    @media screen and (max-width: 360px) {
+        .nss{ 
+            font-size: 0.6rem;
+        }
+        .institute{
+            
+            font-size: 0.4rem;
+        }
+        .head-logo{
+            margin-top: 3px;
+            
+            height: auto;
+            width: 40px;
+            max-width: none;
+        
+        }
+      
+
+    }           
