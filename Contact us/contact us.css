@@ -1,0 +1,35 @@
+
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+ .head{
+     background-color: lightblue;
+     border-radius: 5px;
+     margin-top: -40px;
+
+ } 
+
+ .effect-1{
+     
+     width: 100%;
+     padding: 7px 0;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     padding-left: 10px;
+ }
+
+ .head-conatact{
+     font-size: 2vw!important;
+ }
