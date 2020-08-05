@@ -31,10 +31,9 @@
   }
   
   .gall-text {
-    background-image: linear-gradient(45deg, rgba(14, 14, 194, 0.562),lightcyan);
-    color: whitesmoke;
+    
+    color: black;
     font-weight: bold;
-    font-size: 18px;
-    padding: 16px 32px;
-    border-radius: 30px;
+    font-size: 16px;
+    
   }
