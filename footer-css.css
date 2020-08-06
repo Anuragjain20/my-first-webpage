@@ -1,19 +1,19 @@
-.logo {
+.foot-logo {
     width:60px;
    }
-   .heading{
+   .foot-heading{
      text-align:center ;
      padding-top:20px;  
      margin:auto;
    color:midnightblue ;
    }
-   .icons
+   .foot-icons
    {
   
             color:black;
            padding:10px;
                }
-   .button{
+   .foot-button{
      margin-left:10px;
    padding-top: 5px;
      
@@ -23,7 +23,7 @@
 border: 2px solid black;
 
    }
-   .quicklinks{
+   .foot-quicklinks{
      color:black;
      font-size:18px ;
 
