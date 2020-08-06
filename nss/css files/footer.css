@@ -1,31 +1,30 @@
-.logo {
+
+   .foot-logo {
     width:60px;
    }
-   .headingfoot{
+   .foot-heading{
      text-align:center ;
      padding-top:20px;  
      margin:auto;
-   color:midnightblue ;
    }
-   .icons
-   { color:black;
-    padding:10px;
-    }
-   .button-footer{
+   .foot-icons
+   {
+  
+            color:black;
+           padding:10px;
+               }
+   .foot-button{
      margin-left:10px;
    padding-top: 5px;
-     border: 2px,solid,black;
+     
      border-radius: 20px;
+     background-color:white; 
+
+border: 2px solid black;
 
    }
-   .copyright{
-    background-color:#123c69;;
-    color:white;
-    text-align:center
-   }
-.quicklinks{
+   .foot-quicklinks{
      color:black;
      font-size:18px ;
-     margin: auto!important;
 
    }
