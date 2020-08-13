@@ -1,0 +1,31 @@
+.logo {
+    width:60px;
+    
+   }
+   .heading{
+     text-align:center ;
+     padding-top:20px;  
+     margin:auto;
+   color:midnightblue ;
+   }
+   .icons
+   {
+  
+            color:black;
+           padding:10px;
+               }
+   .button{
+     margin-left:10px;
+   padding-top: 5px;
+     
+     border-radius: 20px;
+     background-color:white; 
+
+border: 2px solid black;
+
+   }
+   .quicklinks{
+     color:black;
+     font-size:18px ;
+
+   }
