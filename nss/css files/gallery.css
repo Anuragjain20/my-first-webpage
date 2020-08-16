@@ -1,3 +1,13 @@
+.gallery-mainhead{
+  background-color: peru;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
 .gallery-img{
     height: auto;
     width: 100%;

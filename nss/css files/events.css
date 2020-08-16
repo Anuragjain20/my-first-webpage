@@ -1,7 +1,10 @@
 .event-mainhead{
-    font-size: 5rem;
-    background-image: linear-gradient(45deg,#ff6a00,#c2ae2173);
+    background-color: peru;
     color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
 }
 
 

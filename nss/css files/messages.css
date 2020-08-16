@@ -1,3 +1,11 @@
+.card-img{
+    border-radius: 150px;
+}
+.card-t-img{
+    border-radius: 100px;
+}
+
+
 
 .pagename {
     background-color: peru;
@@ -19,8 +27,24 @@
     border-radius: 1% ;
     padding: 10px;
     background-color: #ffb5558c;
+    box-shadow: 10px 10px 10px black;
 }
-.img-messages {
-    max-width: 100%;
+
+
+
+@media (max-width:760px){
+.card-img{
     height: auto;
+    width: 70%;
+
+}
+.card-title{
+    text-align: center;
+}
+.card-t-img{
+    height: auto;
+    width: 70%;
+
+}
+
 }
