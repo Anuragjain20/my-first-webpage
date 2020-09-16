@@ -1,0 +1,30 @@
+.logo {
+    width:60px;
+   }
+   .headingfoot{
+     text-align:center ;
+     padding-top:20px;  
+     margin:auto;
+   color:midnightblue ;
+   }
+   .icons
+   { color:black;
+    padding:10px;
+    }
+   .button-footer{
+     margin-left:10px;
+   padding-top: 5px;
+     border: 2px,solid,black;
+     border-radius: 20px;
+
+   }
+   .copyright{
+    background-color:#123c69;;
+    color:white;
+    text-align:center
+   }
+.quicklinks{
+     color:black;
+     font-size:18px ;
+
+   }
